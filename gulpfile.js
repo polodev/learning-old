@@ -3,8 +3,15 @@ var fs  = require('fs');
 
 var lunr = require('lunr');
 
-gulp.task('lunr-index', () => {
+gulp.task('lunr', () => {
   const documents = JSON.parse(fs.readFileSync('docs/index.json'));
+  var store = {}
+  documents.forEach(doc => {
+    store[doc.uri] = {
+        'title': doc.title
+    };
+  });
+  console.log(store)
 
   let lunrIndex = lunr(function() {
         this.field("title", {
@@ -20,6 +27,10 @@ gulp.task('lunr-index', () => {
             this.add(doc);
         }, this);
     });
+  var object = {
+    store: store,
+    index: lunrIndex
+  }
 
-  fs.writeFileSync('static/js/lunr-index.json', JSON.stringify(lunrIndex));
+  fs.writeFileSync('static/js/lunr-index.json', JSON.stringify(object));
 });

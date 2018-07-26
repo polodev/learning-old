@@ -98,6 +98,124 @@ we can make docs folder a website in github. So instead of public folder we can 
 publishDir='docs'
 ~~~
 
+# how I added lunr search in my website 
+
+1. set json output in config.toml file 
+~~~js
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+~~~
+
+2. Added 'layout/index.json' file for json output structure. baseURL inside `config.toml` file matters.    
+
+~~~json
+[{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+  "uri": "{{ $page.Permalink }}",
+  "title": "{{ htmlEscape $page.Title}}",
+  "tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
+  "description": "{{ htmlEscape .Description}}",
+  "content": {{$page.Plain | jsonify}}
+}
+{{- end -}}
+{{- end -}}]
+~~~
+
+3. Using `Hugo` command build the the site and generated json file. Which will be available root of the public directory `public/index.json`
+4. make a gulp file for making lunr index and store file 
+I have to install `lunr` , 'gulp' as dependency using npm  
+~~~bash
+npm init -y
+npm i --save gulp lunr
+~~~
+
+make `gulpfile.json`  in my root and wrote following code 
+
+~~~js
+var gulp = require('gulp');
+var fs  = require('fs');
+
+var lunr = require('lunr');
+
+gulp.task('lunr', () => {
+  const documents = JSON.parse(fs.readFileSync('docs/index.json'));
+  var store = {}
+  documents.forEach(doc => {
+    store[doc.uri] = {
+        'title': doc.title
+    };
+  });
+  console.log(store)
+
+  let lunrIndex = lunr(function() {
+        this.field("title", {
+            boost: 10
+        });
+        this.field("tags", {
+            boost: 1
+        });
+        this.field("content");
+        this.ref("uri");
+
+        documents.forEach(function(doc) {
+            this.add(doc);
+        }, this);
+    });
+  var object = {
+    store: store,
+    index: lunrIndex
+  }
+  fs.writeFileSync('static/js/lunr-index.json', JSON.stringify(object));
+});
+~~~
+
+to generate 'static/js/lunr-index.json' file we need do following command `gulp lunr`     
+once we generate lunr index we can fetch json file using `fetch` api and listen to `keyup` event for search 
+
+~~~js
+$(document).ready(function () {
+    'use strict';
+    // Set up search
+    var index, store;
+    $.getJSON('/learning/js/lunr-index.json', function (response) {
+        // Create index
+        index = lunr.Index.load(response.index);
+        // Create store
+        store = response.store;
+        // Handle search
+        $('input#search').on('keyup', function () {
+            // Get query
+            var query = $(this).val();
+            // Search for it
+            var result = index.search(`${query}*`);
+            console.log('result', result);
+            // Output it
+            var resultdiv = $('#search_result');
+            if (result.length === 0 || query == '' ) {
+                // Hide results
+                resultdiv.hide();
+            } else {
+                // Show results
+                resultdiv.empty();
+                for (var item in result) {
+                    var ref = result[item].ref;
+                    var searchitem = '<li><a href="' + ref + '">' + store[ref].title + '</a></li>';
+                    resultdiv.append(searchitem);
+                }
+                resultdiv.show();
+            }
+        });
+    });
+}); 
+
+~~~
+
+
+
+
+
 
 
 

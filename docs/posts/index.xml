@@ -1,41 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://polodev.github.io/learning/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Learning 101</title>
+    <link>http://polodev.github.io/learning/posts/</link>
+    <description>Recent content on Learning 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jul 2018 15:05:09 +0600</lastBuildDate>
     
-	<atom:link href="https://polodev.github.io/learning/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://polodev.github.io/learning/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>One english post</title>
-      <link>https://polodev.github.io/learning/posts/one/</link>
+      <link>http://polodev.github.io/learning/posts/one/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>https://polodev.github.io/learning/posts/one/</guid>
+      <guid>http://polodev.github.io/learning/posts/one/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
     </item>
     
     <item>
       <title>Three english post</title>
-      <link>https://polodev.github.io/learning/posts/three/</link>
+      <link>http://polodev.github.io/learning/posts/three/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>https://polodev.github.io/learning/posts/three/</guid>
+      <guid>http://polodev.github.io/learning/posts/three/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
     </item>
     
     <item>
       <title>Two english post</title>
-      <link>https://polodev.github.io/learning/posts/two/</link>
+      <link>http://polodev.github.io/learning/posts/two/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>https://polodev.github.io/learning/posts/two/</guid>
+      <guid>http://polodev.github.io/learning/posts/two/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
+    </item>
+    
+    <item>
+      <title>How to Create Read Update Delete in Php Mysql With Pdo</title>
+      <link>http://polodev.github.io/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</link>
+      <pubDate>Tue, 24 Jul 2018 00:29:26 +0600</pubDate>
+      
+      <guid>http://polodev.github.io/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</guid>
+      <description>Visual CRUD in PHP 
+In this video tutorial I have shown how to make a basic crud application in php. I have connected with database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.
+Objective of this video  You will be able to create, read, update, delete in php You will understand php data object(PDO). PDO is database agnostic.</description>
+    </item>
+    
+    <item>
+      <title>Hugo cheatsheet</title>
+      <link>http://polodev.github.io/learning/posts/hugo-cheatsheet/</link>
+      <pubDate>Mon, 23 Jul 2018 00:29:26 +0600</pubDate>
+      
+      <guid>http://polodev.github.io/learning/posts/hugo-cheatsheet/</guid>
+      <description># master template in hugo In hugo master template name is baseof.html which located in layouts/_default/baseof.html .
+# block in master template {{ block &amp;#34;main&amp;#34; . }} default content here {{end}} # using block in other template {{ define &amp;#34;main&amp;#34; }} &amp;lt;h2&amp;gt;Different page&amp;lt;/h2&amp;gt; {{ end }} # Adding scss in hugo make file inside assets/scss/style.scss file
+Inside html file
+{{ $sass := resources.Get &amp;#34;scss/style.scss&amp;#34; }} {{ $style := $sass | resources.</description>
     </item>
     
   </channel>

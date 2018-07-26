@@ -1,7 +1,8 @@
-baseURL = "https://polodev.github.io/learning/"
+baseURL2 = "http://localhost:1313/learning/"
+baseURL = "http://polodev.github.io/learning/"
 languageCode = "en-us"
 publishDir="docs"
-title = "My New Hugo Site"
+title = "Learning 101"
 Paginate=2
 [taxonomy]
   category="categories"

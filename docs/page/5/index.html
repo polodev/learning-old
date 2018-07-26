@@ -49,30 +49,20 @@
   <div class="card my-2">
     <div class="card-body">
       
-        <div class="category-block mb-2">
-          <strong>Categories:</strong> 
-          <a class="badge badge-info" href="http://polodev.github.io/learning/categories/english">
-            english
-          </a>
-          
-          <a class="badge badge-info" href="http://polodev.github.io/learning/categories/basic-english">
-            basic english
-          </a>
-          
-        </div>
-      
 
       <h3 class="post_title">
-        <a href="/learning/posts/one/">One english post</a>
+        <a href="/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/">How to Create Read Update Delete in Php Mysql With Pdo</a>
       </h3>
       
 
-      one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!
+      Visual CRUD in PHP 
+In this video tutorial I have shown how to make a basic crud application in php. I have connected with database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.
+Objective of this video  You will be able to create, read, update, delete in php You will understand php data object(PDO). PDO is database agnostic.
 
 
        
         <div>
-          <a href="/learning/posts/one/">Read More…</a>
+          <a href="/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/">Read More…</a>
         </div>
       
 
@@ -82,32 +72,21 @@
   <div class="card my-2">
     <div class="card-body">
       
-        <div class="category-block mb-2">
-          <strong>Categories:</strong> 
-          <a class="badge badge-info" href="http://polodev.github.io/learning/categories/english">
-            english
-          </a>
-          
-          <a class="badge badge-info" href="http://polodev.github.io/learning/categories/advanced-english">
-            advanced english
-          </a>
-          
-        </div>
-      
 
       <h3 class="post_title">
-        <a href="/learning/english/three/">Three english</a>
+        <a href="/learning/posts/hugo-cheatsheet/">Hugo cheatsheet</a>
       </h3>
       
 
-      one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt libero, officia aliquid assumenda eaque voluptatem tempore rem, debitis at, reprehenderit totam perspiciatis soluta quaerat dolorem magni minus dolores expedita ad.
-two - lorem ipsum dolor sit amet Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit explicabo illum incidunt deserunt minima maxime aliquam beatae. Nesciunt, dolore vero.
-two - lorem ipsum dolor sit amet Lorem ipsum dolor.
+      # master template in hugo In hugo master template name is baseof.html which located in layouts/_default/baseof.html .
+# block in master template {{ block &#34;main&#34; . }} default content here {{end}} # using block in other template {{ define &#34;main&#34; }} &lt;h2&gt;Different page&lt;/h2&gt; {{ end }} # Adding scss in hugo make file inside assets/scss/style.scss file
+Inside html file
+{{ $sass := resources.Get &#34;scss/style.scss&#34; }} {{ $style := $sass | resources.
 
 
        
         <div>
-          <a href="/learning/english/three/">Read More…</a>
+          <a href="/learning/posts/hugo-cheatsheet/">Read More…</a>
         </div>
       
 
@@ -122,19 +101,19 @@ two - lorem ipsum dolor sit amet Lorem ipsum dolor.
     <ul class="pagination">
         
         
-
-        
-        <li class="page-item"><a href="/learning/" rel="prev" class="page-link">‹ Prev</a></li>
+        <li class="page-item"><a href="/learning/" rel="first" class="page-link">« First</a></li>
         
 
         
-            
-             
-            <li class="page-item"><a href="/learning/" class="page-link">1</a></li>
-            
+        <li class="page-item"><a href="/learning/page/4/" rel="prev" class="page-link">‹ Prev</a></li>
+        
+
         
              
-            <li class="page-item active"><a href="/learning/page/2/" class="page-link">2</a></li>
+            
+            <li class="page-item disabled"><a class="page-link">...</a></li>
+            
+        
             
         
             
@@ -148,18 +127,13 @@ two - lorem ipsum dolor sit amet Lorem ipsum dolor.
             
         
              
-            
-            <li class="page-item disabled"><a class="page-link">...</a></li>
+            <li class="page-item active"><a href="/learning/page/5/" class="page-link">5</a></li>
             
         
 
         
-        <li class="page-item"><a href="/learning/page/3/" rel="next" class="page-link">Next ›</a></li>
-        
 
         
-        
-        <li class="page-item"><a href="/learning/page/5/" rel="last" class="page-link">Last »</a></li>
         
     </ul>
 </nav>
