@@ -6,7 +6,8 @@
   <title>Learning site</title>
   <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
   {{ $sass := resources.Get "css/style.scss" }}
-  {{ $style := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+  <!-- "outputStyle" "compressed"  -->
+  {{ $style := $sass | resources.ToCSS (dict "enableSourceMap" true) }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
 </head>
 <body>
