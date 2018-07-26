@@ -3,6 +3,12 @@
   <h1 class="post_title">
     <a href="{{.URL}}">{{.Title}}</a>
   </h1>
+  
+<div id="toc" class="well col-md-4 col-sm-6">
+  {{ .TableOfContents }}
+</div>
+
+
   <p>
     published on {{ .PublishDate.Format "January 2, 2006" }}.
       {{ if .Params.categories }}
@@ -19,5 +25,6 @@
 
   </p>
   {{.Content}}
+ 
 </div>
 {{ end }}
