@@ -1,0 +1,6 @@
+baseURL = "https://polodev.github.io/learning/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+[taxonomy]
+  category='categories'
+  tag='tags'
