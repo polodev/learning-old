@@ -3,7 +3,7 @@
   <h1 class="post_title">
     <a href="{{.URL}}">{{.Title}}</a>
   </h1>
-  
+
 <div id="toc" class="well col-md-4 col-sm-6">
   {{ .TableOfContents }}
 </div>
@@ -25,6 +25,16 @@
 
   </p>
   {{.Content}}
- 
+
+  <div class="text-center py-3">
+    {{ if .PrevInSection }}
+      <a class="btn btn-info" href="{{.PrevInSection.Permalink}}">Next Post</a>
+    {{ end }}
+    {{ if .NextInSection }}
+      <a class="btn btn-info" href="{{.NextInSection.Permalink}}">Previous Post</a>
+    {{ end }}
+  </div>
+
+
 </div>
 {{ end }}
