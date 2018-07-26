@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning site</title>
+  <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
+  <link rel="stylesheet" href="{{"css/style.css" | relURL}}">
+
 </head>
 <body>
-  
+{{ partial "menu" . }}
+<div class="mt-3">
+{{ block "main" . }}{{ end }}
+</div>
+<script src="{{"js/jquery.min.js" | relURL}}"></script>
+<script src="{{"js/popper.min.js" | relURL}}"></script>
+<script src="{{"js/popper.min.js" | relURL}}"></script>
 </body>
 </html>

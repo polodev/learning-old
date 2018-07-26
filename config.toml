@@ -2,5 +2,11 @@ baseURL = "https://polodev.github.io/learning/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 [taxonomy]
-  category='categories'
-  tag='tags'
+  category="categories"
+  tag="tags"
+  english="english"
+  general-knowledge="general-knowledge"
+  geography="geography"
+  math="math"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

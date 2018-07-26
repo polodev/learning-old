@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <h2>this is list page</h2>
+{{ range .Pages }}
+  <div class="card my-2">
+    <div class="card-body">
+      <h4 class="post_title">
+        <a href="{{.URL}}">{{.Title}}</a>
+      </h4>
+      {{.Summary}}
+      {{ if .Params.categories }}
+        <div class="category-block">
+          Categories: {{ range .Params.categories }}{{ . }}{{ end }}
+        </div>
+      {{ end}}
+
+    </div>
+  </div>
+{{ end }}</div>
+{{ end }}
