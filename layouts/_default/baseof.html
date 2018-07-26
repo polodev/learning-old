@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning site</title>
   <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
-  <link rel="stylesheet" href="{{"css/style.css" | relURL}}">
+  {{ $sass := resources.Get "css/style.scss" }}
+  {{ $style := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
 </head>
 <body>
 {{ partial "menu" . }}
-<div class="container mt-4">
+<div class="center mt-4">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
       <div class="mt-3">
       {{ block "main" . }}{{ end }}
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <aside>
         {{ partial "categories" . }}
       </aside>

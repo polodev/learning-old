@@ -92,6 +92,12 @@ making a partial pagination.html and paste content following
 <!-- Code ends here -->
 ~~~    
 
+# publishDir 
+we can make docs folder a website in github. So instead of public folder we can publish build in to docs folder by adding following setting in config.toml file 
+~~~bash
+publishDir='docs'
+~~~
+
 
 
 

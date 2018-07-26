@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="container">
-  <h2>this is list page</h2>
+<div>
+  <h2 class="mb-4">All posts under <span class='mark'>{{.Title}} </span> </h2>
 {{ range .Paginator.Pages }}
   <div class="card my-2">
     <div class="card-body">

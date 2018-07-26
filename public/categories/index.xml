@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My New Hugo Site</title>
+    <link>https://polodev.github.io/learning/categories/</link>
+    <description>Recent content in Categories on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 15:05:09 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/learning/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advanced English</title>
+      <link>https://polodev.github.io/learning/categories/advanced-english/</link>
+      <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/categories/advanced-english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic English</title>
+      <link>https://polodev.github.io/learning/categories/basic-english/</link>
+      <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/categories/basic-english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://polodev.github.io/learning/categories/english/</link>
+      <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/categories/english/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

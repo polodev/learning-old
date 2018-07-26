@@ -1,5 +1,6 @@
 baseURL = "https://polodev.github.io/learning/"
 languageCode = "en-us"
+publishDir="docs"
 title = "My New Hugo Site"
 Paginate=2
 [taxonomy]
