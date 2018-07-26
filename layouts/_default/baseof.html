@@ -6,15 +6,25 @@
   <title>Learning site</title>
   <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
   <link rel="stylesheet" href="{{"css/style.css" | relURL}}">
-
 </head>
 <body>
 {{ partial "menu" . }}
-<div class="mt-3">
-{{ block "main" . }}{{ end }}
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="mt-3">
+      {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+    <div class="col-md-4">
+      <aside>
+        {{ partial "categories" . }}
+      </aside>
+    </div>
+  </div>
 </div>
 <script src="{{"js/jquery.min.js" | relURL}}"></script>
 <script src="{{"js/popper.min.js" | relURL}}"></script>
-<script src="{{"js/popper.min.js" | relURL}}"></script>
+<script src="{{"js/bootstrap.min.js" | relURL}}"></script>
 </body>
 </html>

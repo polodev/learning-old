@@ -1,6 +1,23 @@
 {{ define "main" }}
 <div class="container">
-  <h2>{{.Title}}</h2>
+  <h1 class="post_title">
+    <a href="{{.URL}}">{{.Title}}</a>
+  </h1>
+  <p>
+    published on {{ .PublishDate.Format "January 2, 2006" }}.
+      {{ if .Params.categories }}
+        <span class="category-block">
+          <strong>Under</strong>
+          {{ range .Params.categories }}
+            <a class="badge badge-info" href="{{$.Site.BaseURL}}categories/{{. | urlize }}">
+              {{ . }}
+            </a>
+          {{ end }}
+           categories.
+        </span>
+      {{ end}}
+
+  </p>
   {{.Content}}
 </div>
 {{ end }}

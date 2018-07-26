@@ -1,8 +1,9 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: false
-categories: ["geography"]
-tags: ["geography"]
----
++++
+title= "{{ replace .Name "-" " " | title }}"
+date= {{ .Date }}
+draft= false
+categories= ["geography"]
+tags= ["geography"]
+number= 1
++++
 

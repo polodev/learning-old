@@ -1,5 +1,5 @@
 +++
-title= "One english"
+title= "One english post"
 date= 2018-07-26T15:05:09+06:00
 draft= false
 categories= ["english", "basic english"]

@@ -1,20 +1,35 @@
 {{ define "main" }}
 <div class="container">
   <h2>this is list page</h2>
-{{ range .Pages }}
+{{ range .Paginator.Pages }}
   <div class="card my-2">
     <div class="card-body">
-      <h4 class="post_title">
+      <h3 class="post_title">
         <a href="{{.URL}}">{{.Title}}</a>
-      </h4>
-      {{.Summary}}
+      </h3>
+      
       {{ if .Params.categories }}
         <div class="category-block">
-          Categories: {{ range .Params.categories }}{{ . }}{{ end }}
+          <strong>Categories:</strong> {{ range .Params.categories }}
+          <a class="badge badge-info" href="{{$.Site.BaseURL}}categories/{{. | urlize }}">
+            {{ . }}
+          </a>
+          {{ end }}
         </div>
       {{ end}}
 
+      {{.Summary}}
+
+
+       {{ if .Truncated }}
+        <div>
+          <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+      {{ end }}
+
     </div>
   </div>
-{{ end }}</div>
+{{ end }}
+{{ partial "pagination" . }}
+</div>
 {{ end }}
