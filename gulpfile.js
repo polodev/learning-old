@@ -18,7 +18,7 @@ gulp.task('lunr', () => {
             boost: 10
         });
         this.field("tags", {
-            boost: 1
+            boost: 3
         });
         this.field("content", {
           boost: 1

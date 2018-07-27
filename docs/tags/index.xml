@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Learning 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jul 2018 14:46:19 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/learning/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Diplomatic Glossary</title>
+      <link>https://polodev.github.io/learning/tags/diplomatic-glossary/</link>
+      <pubDate>Fri, 27 Jul 2018 14:46:19 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/tags/diplomatic-glossary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Un</title>
+      <link>https://polodev.github.io/learning/tags/un/</link>
+      <pubDate>Fri, 27 Jul 2018 14:37:26 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/tags/un/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United Nations</title>
+      <link>https://polodev.github.io/learning/tags/united-nations/</link>
+      <pubDate>Fri, 27 Jul 2018 14:37:26 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/learning/tags/united-nations/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

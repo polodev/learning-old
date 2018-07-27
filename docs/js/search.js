@@ -1,7 +1,7 @@
+var index, store;
 $(document).ready(function () {
     'use strict';
     // Set up search
-    var index, store;
     $.getJSON('/learning/js/lunr-index.json', function (response) {
         // Create index
         index = lunr.Index.load(response.index);
