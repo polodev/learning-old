@@ -108,7 +108,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 2. Added 'layout/index.json' file for json output structure. baseURL inside `config.toml` file matters.    
 
-~~~json
+~~~js
 [{{ range $index, $page := .Site.Pages }}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
