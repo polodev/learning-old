@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning 101</title>
-    <link>http://localhost:1313/learning/</link>
+    <link>https://polodev.github.io/learning/</link>
     <description>Recent content on Learning 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jul 2018 15:05:14 +0600</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polodev.github.io/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Three english</title>
-      <link>http://localhost:1313/learning/geography/three/</link>
+      <link>https://polodev.github.io/learning/geography/three/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:14 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/geography/three/</guid>
+      <guid>https://polodev.github.io/learning/geography/three/</guid>
       <description>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sapiente, eos labore harum alias quaerat repellat. Nesciunt ipsa qui voluptatibus, placeat voluptatem corporis sapiente sunt expedita, quod consequatur nihil nostrum quis adipisci natus commodi ipsum veniam debitis ratione numquam dolorum rerum quasi. Beatae pariatur velit a optio quo vero assumenda!</description>
     </item>
     
     <item>
       <title>One english</title>
-      <link>http://localhost:1313/learning/english/one/</link>
+      <link>https://polodev.github.io/learning/english/one/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/english/one/</guid>
+      <guid>https://polodev.github.io/learning/english/one/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt libero, officia aliquid assumenda eaque voluptatem tempore rem, debitis at, reprehenderit totam perspiciatis soluta quaerat dolorem magni minus dolores expedita ad.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit explicabo illum incidunt deserunt minima maxime aliquam beatae. Nesciunt, dolore vero.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
@@ -33,19 +33,19 @@ two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
     
     <item>
       <title>One english post</title>
-      <link>http://localhost:1313/learning/posts/one/</link>
+      <link>https://polodev.github.io/learning/posts/one/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/posts/one/</guid>
+      <guid>https://polodev.github.io/learning/posts/one/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
     </item>
     
     <item>
       <title>Three english</title>
-      <link>http://localhost:1313/learning/english/three/</link>
+      <link>https://polodev.github.io/learning/english/three/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/english/three/</guid>
+      <guid>https://polodev.github.io/learning/english/three/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt libero, officia aliquid assumenda eaque voluptatem tempore rem, debitis at, reprehenderit totam perspiciatis soluta quaerat dolorem magni minus dolores expedita ad.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit explicabo illum incidunt deserunt minima maxime aliquam beatae. Nesciunt, dolore vero.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
@@ -53,19 +53,19 @@ two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
     
     <item>
       <title>Three english post</title>
-      <link>http://localhost:1313/learning/posts/three/</link>
+      <link>https://polodev.github.io/learning/posts/three/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/posts/three/</guid>
+      <guid>https://polodev.github.io/learning/posts/three/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
     </item>
     
     <item>
       <title>Two english</title>
-      <link>http://localhost:1313/learning/english/two/</link>
+      <link>https://polodev.github.io/learning/english/two/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/english/two/</guid>
+      <guid>https://polodev.github.io/learning/english/two/</guid>
       <description>&amp;lt;# one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt libero, officia aliquid assumenda eaque voluptatem tempore rem, debitis at, reprehenderit totam perspiciatis soluta quaerat dolorem magni minus dolores expedita ad.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit explicabo illum incidunt deserunt minima maxime aliquam beatae. Nesciunt, dolore vero.
 two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
@@ -73,28 +73,28 @@ two - lorem ipsum dolor sit amet Lorem ipsum dolor.</description>
     
     <item>
       <title>Two english post</title>
-      <link>http://localhost:1313/learning/posts/two/</link>
+      <link>https://polodev.github.io/learning/posts/two/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/posts/two/</guid>
+      <guid>https://polodev.github.io/learning/posts/two/</guid>
       <description>one - Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sunt officiis repellat et reprehenderit distinctio cum numquam eveniet nemo consectetur nihil quo at dolor tempore deserunt earum, odit dignissimos, culpa dolorem, debitis consequuntur! Voluptate nulla quod, fugit vitae dolores culpa animi id, ad ratione est recusandae mollitia sapiente atque debitis at? Culpa consectetur, consequatur reiciendis? Et in quisquam, iste voluptas id enim, repudiandae recusandae placeat ea qui officiis pariatur impedit!</description>
     </item>
     
     <item>
       <title>One english</title>
-      <link>http://localhost:1313/learning/geography/one/</link>
+      <link>https://polodev.github.io/learning/geography/one/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:04 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/geography/one/</guid>
+      <guid>https://polodev.github.io/learning/geography/one/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ex quaerat quis et fugit consectetur reprehenderit alias adipisci, ea esse. Beatae cumque iure explicabo assumenda quibusdam omnis, facere sequi quidem!</description>
     </item>
     
     <item>
       <title>How to Create Read Update Delete in Php Mysql With Pdo</title>
-      <link>http://localhost:1313/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</link>
+      <link>https://polodev.github.io/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</link>
       <pubDate>Tue, 24 Jul 2018 00:29:26 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</guid>
+      <guid>https://polodev.github.io/learning/posts/how-to-create-read-update-delete-in-php-mysql-with-pdo/</guid>
       <description>Visual CRUD in PHP 
 In this video tutorial I have shown how to make a basic crud application in php. I have connected with database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.
 Objective of this video  You will be able to create, read, update, delete in php You will understand php data object(PDO). PDO is database agnostic.</description>
@@ -102,10 +102,10 @@ Objective of this video  You will be able to create, read, update, delete in php
     
     <item>
       <title>Hugo cheatsheet</title>
-      <link>http://localhost:1313/learning/posts/hugo-cheatsheet/</link>
+      <link>https://polodev.github.io/learning/posts/hugo-cheatsheet/</link>
       <pubDate>Mon, 23 Jul 2018 00:29:26 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/posts/hugo-cheatsheet/</guid>
+      <guid>https://polodev.github.io/learning/posts/hugo-cheatsheet/</guid>
       <description># master template in hugo In hugo master template name is baseof.html which located in layouts/_default/baseof.html .
 # block in master template {{ block &amp;#34;main&amp;#34; . }} default content here {{end}} # using block in other template {{ define &amp;#34;main&amp;#34; }} &amp;lt;h2&amp;gt;Different page&amp;lt;/h2&amp;gt; {{ end }} # Adding scss in hugo make file inside assets/scss/style.scss file
 Inside html file

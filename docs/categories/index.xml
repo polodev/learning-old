@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Learning 101</title>
-    <link>http://localhost:1313/learning/categories/</link>
+    <link>https://polodev.github.io/learning/categories/</link>
     <description>Recent content in Categories on Learning 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jul 2018 15:05:09 +0600</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/learning/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polodev.github.io/learning/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Advanced English</title>
-      <link>http://localhost:1313/learning/categories/advanced-english/</link>
+      <link>https://polodev.github.io/learning/categories/advanced-english/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/categories/advanced-english/</guid>
+      <guid>https://polodev.github.io/learning/categories/advanced-english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Basic English</title>
-      <link>http://localhost:1313/learning/categories/basic-english/</link>
+      <link>https://polodev.github.io/learning/categories/basic-english/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/categories/basic-english/</guid>
+      <guid>https://polodev.github.io/learning/categories/basic-english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>English</title>
-      <link>http://localhost:1313/learning/categories/english/</link>
+      <link>https://polodev.github.io/learning/categories/english/</link>
       <pubDate>Thu, 26 Jul 2018 15:05:09 +0600</pubDate>
       
-      <guid>http://localhost:1313/learning/categories/english/</guid>
+      <guid>https://polodev.github.io/learning/categories/english/</guid>
       <description></description>
     </item>
     
