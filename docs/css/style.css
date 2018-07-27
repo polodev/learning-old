@@ -1,6 +1,9 @@
 body {
   color: #333; }
 
+img {
+  max-width: 100%; }
+
 .center {
   max-width: 1350px;
   padding: 0 12px;
