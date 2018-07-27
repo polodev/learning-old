@@ -20,7 +20,9 @@ gulp.task('lunr', () => {
         this.field("tags", {
             boost: 1
         });
-        this.field("content");
+        this.field("content", {
+          boost: 1
+        });
         this.ref("uri");
 
         documents.forEach(function(doc) {
