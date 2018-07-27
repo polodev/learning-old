@@ -1,5 +1,5 @@
-baseURL2 = "http://localhost:1313/learning/"
-baseURL = "https://polodev.github.io/learning/"
+baseURL = "http://localhost:1313/learning/"
+baseURL2 = "https://polodev.github.io/learning/"
 languageCode = "en-us"
 publishDir="docs"
 title = "Learning 101"
